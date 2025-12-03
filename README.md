@@ -1,1 +1,1 @@
-# [GangstaD69.github.io](https://www.gangstad69.github.io)
+# [GangstaD69.github.io](https://.gangstad69.github.io)
