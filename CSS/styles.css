@@ -141,3 +141,15 @@ main p{
 
   h2, p { margin-top: 1em }
 }
+
+.popup1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.popup1 h2, .popup1, h4 {
+    display: flex;
+    justify-content: center;
+}
