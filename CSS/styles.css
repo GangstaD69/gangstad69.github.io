@@ -150,10 +150,12 @@ main p{
     background-color: gray;
     border: 1px solid black;
     border-radius: 10px;
+    left: 200px;
 }
 
-.popup1 h2, .popup1, h4 {
+.popup1 h2, .popup1 h4 {
     display: flex;
     justify-content: center;
 }
+
 
