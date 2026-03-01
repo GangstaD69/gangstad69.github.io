@@ -144,14 +144,15 @@ main p{
 
 .popup1 {
     position: fixed;
+
+    /* Centering magic */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    width: 60%;
-    max-width: 700px;
-    height: 70%;
-    max-height: 600px;
+    /* Set exact size */
+    width: 600px;      /* Change to whatever you want */
+    height: 500px;     /* Change to whatever you want */
 
     display: flex;
     flex-direction: column;
@@ -167,6 +168,7 @@ main p{
     display: flex;
     justify-content: center;
 }
+
 
 
 
