@@ -20,7 +20,7 @@ body{
     min-height: 100dvh;
     background-color: var(--base-clr);
     color: var(--text-clr);
-
+    background-image: url("Assets/Images/TalkingtOm.jpg");
     display: grid;
     grid-template-columns: auto 1fr;
 }
@@ -168,6 +168,7 @@ main p{
     display: flex;
     justify-content: center;
 }
+
 
 
 
