@@ -143,22 +143,31 @@ main p{
 }
 
 .popup1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 60%;
+    max-width: 700px;
+    height: 70%;
+    max-height: 600px;
+
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: fixed;
+
     background-color: gray;
     border: 1px solid black;
     border-radius: 10px;
-    left: 200px;
-    width: 70%;
-    height: 80%;
 }
 
 .popup1 h2, .popup1 h4 {
     display: flex;
     justify-content: center;
 }
+
 
 
 
