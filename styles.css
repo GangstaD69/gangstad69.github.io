@@ -1,16 +1,29 @@
+/*fonts from google*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+}
+
 #navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #608cc9;
 }
 
 #navbar li {
     float: left;
+    height: 60px;
 }
 
 #navbar li a {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    height: 100%;
+    width: 100px;
     display: block;
     color: white;
     text-align: center;
@@ -18,6 +31,11 @@
     text-decoration: none;
 }
 
+#navbar li img {
+    height: 100%;
+    margin: 0 20px 0 0;
+}
+
 #navbar li a:hover {
-    background-color: #111111;
+    background-color: rgb(125, 166, 228);
 }
