@@ -6,6 +6,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+img {
+    object-fit: cover; /*Doesnt stretch image or anything, crops instead*/
+    object-position: center; /*Centers the cropping*/
+}
+
+hr {
+    width: 40%;
+    margin: 0 auto;
+}
+
 #navbar {
     display: flex;
     justify-content: space-between;
@@ -34,6 +44,14 @@ body {
 #navmenu a:hover {
     background-color: rgb(129, 191, 125);
     color: rgb(41, 93, 38);
+}
+
+#activelink {
+    background-color: rgb(96, 137, 93);
+}
+
+#content {
+    text-align: center;
 }
 
 #footer {
