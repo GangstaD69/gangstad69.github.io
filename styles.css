@@ -7,7 +7,7 @@ html {
 body {
     margin: 0;
     overscroll-behavior: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
 img {
@@ -55,8 +55,73 @@ hr {
 }
 
 #content {
-    text-align: center;
+    text-align: left;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#content h1, #content p { margin: 0; }
+
+
+
+#block1 {
+    padding: 5% 40% 5% 20%;
+}
+#block1 h1 { font-size: 50px; }
+#block1 p { font-size: 25px; }
+
+
+
+#block2 {
+    padding: 5% 20%;
+    background-color: #364e35;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#block2 div { flex: 1; }
+#block2 h1 { font-size: 50px; }
+#block2 p { font-size: 25px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #gallerycontent {
     display: grid;
