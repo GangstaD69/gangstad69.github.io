@@ -122,5 +122,8 @@ hr {
 }
 
 #gallerycontent div { text-align: center; }
-#gallerycontent img { width: 80%; }
+#gallerycontent img {
+    width: 80%;
+    aspect-ratio: 1 / 1;
+}
 #gallerycontent div p { font-size: 18px; }
